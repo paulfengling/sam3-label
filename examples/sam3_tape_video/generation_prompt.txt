@@ -1,0 +1,18 @@
+Generated with the built-in image_gen tool, then layered and animated programmatically.
+This is a synthetic diagnostic fixture, not recorded real-world footage.
+
+SOURCE 1
+Use case: photorealistic-natural
+Asset type: static source frame for a clearly disclosed synthetic object-tracking demonstration
+Primary request: A close-up photographic view of an adult hand holding ONE LONG, STRAIGHT, FLAT STRIP OF WHITE ADHESIVE TAPE above a dark charcoal work tabletop. The tape is a rectangular ribbon about 25 cm long and 3 cm wide, with a matte slightly fibrous paper texture, gently flexible but mostly straight. The tape is NOT A ROLL, NOT A RING, NOT A WRISTBAND.
+Composition: landscape 3:2. Top-down/slightly oblique camera, entire tape comfortably inside the central part of the image, mostly horizontal, running from 22% to 78% of image width at about 47% of image height. The strip is visually distinct from the dark table. One naturally proportioned adult hand enters from the lower left and gently pinches ONLY the left end with thumb and index finger; most of the white strip remains visible, including the right end. Real skin texture and physically plausible grip. Upper half mostly empty tabletop. 
+Lighting: soft diffuse overhead daylight, natural realistic shadows and textures, sharp focus on tape and hand.
+Constraints: exactly one strip of tape, one gripping hand only, no roll of tape, no circular or doughnut shapes, no tools, no text, no watermark. No other white objects.
+
+SOURCE 2
+Use case: photorealistic-natural
+Asset type: transparent cutout foreground layer for an explicitly synthetic tracking demonstration
+Primary request: A photorealistic adult right hand with natural light-medium skin, palm facing camera, entering from the bottom edge, with only its straight index finger pointing vertically upward. The tip of the index finger ends at about 25% of image height. Remaining fingers gently curled into the palm, thumb naturally relaxed to one side. Proportions anatomically realistic. This hand will be composited in front of a long horizontal strip of white tape; it should occlude only a small central portion of the tape as it rises.
+Composition: portrait-ish subject centered within a square canvas, hand and wrist isolated. Straight long upright index finger, natural intact fingertips, no tape or objects in the hand. Soft diffuse top-down lighting, high detail real skin and subtle creases, warm-neutral skin. Front or slightly oblique top view.
+Constraints: ACTUAL TRANSPARENT BACKGROUND with clean alpha edges, no gray studio background, no checkerboard pixels baked into the image, no text, no watermark, exactly one hand, no sleeve, no object, no extra fingers. Keep wrist/forearm continuing naturally to bottom edge.
+

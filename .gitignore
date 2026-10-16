@@ -1,0 +1,74 @@
+# Local environments, Python caches and build products
+.venv/
+.sam3_label/
+venv/
+env/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage*
+htmlcov/
+build/
+dist/
+
+# Model weights stay local; retain the repository's download instructions.
+/weights/*
+!/weights/README.md
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated jobs, logs and local workspace files
+/outputs/
+runs/
+logs/
+*.log
+/output_3_masks.png
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+/ultralytics/
+/yolotest/
+/关键点测试/
+/整合包/
+/界面图片/
+
+# Keep the patched sam2/sam2 and sam3/sam3 packages, their configs, and BPE.
+# The upstream training/demo datasets are not needed by this application.
+/sam2/notebooks/
+/sam2/demo/
+/sam2/sav_dataset/
+/sam2/training/
+/sam3/examples/
+/sam3/scripts/
+/sam3/test/
+
+# Preserve the single source image used by both smoke_sam*.py defaults.
+/sam3/assets/*
+!/sam3/assets/videos/
+/sam3/assets/videos/*
+!/sam3/assets/videos/0001/
+/sam3/assets/videos/0001/*
+!/sam3/assets/videos/0001/0.jpg
+
+# Keep compact public previews in examples/demo; local diagnostics contain
+# duplicate renders, frame caches, and machine-specific absolute paths.
+/examples/sam3_tape/results/
+/examples/sam3_tape_video/frames/
+/examples/sam3_tape_video/annotated/
+/examples/sam3_tape_video/*.json
+!/examples/sam3_tape_video/fixture_metadata.json
+/examples/**/*.zip
+/docs/*.docx
+
+# GUI class-list residue from local manual checks
+/examples/sam3_tape_video/classes.txt

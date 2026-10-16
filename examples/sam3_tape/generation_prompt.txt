@@ -1,0 +1,8 @@
+Tool: built-in image_gen
+
+Use case: photorealistic-natural
+Asset type: realistic test photograph for text-guided object segmentation in an annotation app.
+Primary request: A person holding a white roll of adhesive tape in one hand over a wooden workbench, with a blue roll of adhesive tape and another white roll of adhesive tape resting separately on the workbench. Exactly three tape rolls: one white held in the person's fingers above the table, one white resting on the table, and one blue resting on the table. All three rolls must be visibly separated and recognizable as tape with a hollow cardboard core, no overlap between the rolls.
+Composition/framing: Medium close photograph of the person's torso, forearm and hand plus the table. The held tape near upper center, the separate white tape on lower left, blue tape lower right. All objects comfortably inside the image. Natural believable hand grip touching just a small part of the held tape. No tape strips. Tape rolls each around 12–18 percent of image width, clearly visible.
+Lighting/mood: neutral daylight with realistic texture and gentle shadows; both white and blue colors easy to distinguish.
+Constraints: ordinary plausible scene, no text, labels, logos, borders, arrows, watermark or preexisting annotations. Landscape 1536x1024 image.
